@@ -7,12 +7,11 @@
     android:background="#cccccc"
     custom:matchHeightToWidth="true" >
 
-    <ImageView
+    <nl.changer.polypicker.CustomImageView
         android:id="@+id/thumbnail_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop" />
+        custom:matchHeightToWidth="true"
+        android:scaleType="fitXY" />
 
 </nl.changer.polypicker.CustomFrameLayout>

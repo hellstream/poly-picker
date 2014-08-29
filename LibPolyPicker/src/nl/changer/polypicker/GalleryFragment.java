@@ -106,6 +106,8 @@ public class GalleryFragment extends Fragment {
 
             if (holder.mImage == null || !holder.mImage.equals(image)) {
                 mActivity.mImageFetcher.loadImage(image.mUri, holder.mThumbnail);
+//            	holder.mThumbnail.setBackgroundResource(R.drawable.gallery_photo_selected);
+//            	holder.mThumbnail.setImageResource(R.drawable.gallery_photo_selected);
                 holder.mImage = image;
             }
             return convertView;
